@@ -21,7 +21,6 @@ const router = createBrowserRouter(
       <Paste/>
     </div>
     },
-    
     {
       path:"/pastes/:id",
       element: <div className="w-full h-full flex flex-col">
