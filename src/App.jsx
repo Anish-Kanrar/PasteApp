@@ -14,6 +14,7 @@ const router = createBrowserRouter(
         <Home/>
       </div>
     },
+    
     {
       path:"/pastes",
       element: <div className="w-full h-full flex flex-col">
