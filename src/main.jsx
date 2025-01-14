@@ -7,6 +7,7 @@ import { store } from "./redux/store.js";
 import { Toaster } from 'react-hot-toast';
 
 createRoot(document.getElementById("root")).render(
+  
   <StrictMode>
     <Provider store={store}>
       <div className="min-h-screen w-screen overflow-hidden">
