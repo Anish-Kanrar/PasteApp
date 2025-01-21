@@ -15,6 +15,7 @@ const router = createBrowserRouter(
         <Home/>
       </div>
     },
+
     
     {
       path:"/pastes",
